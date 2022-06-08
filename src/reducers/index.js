@@ -3,6 +3,8 @@ import { reducer as formReducer } from "redux-form"; //as is used to rename the 
 import authReducer from "./authReducer";
 import streamReducer from "./streamReducer";
 
+//const NodeMediaServer = require('node-media-server');
+
 export default combineReducers({
     auth: authReducer,
     form: formReducer,
